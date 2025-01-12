@@ -1,0 +1,19 @@
+import "./App.css";
+import Home from "./Page/Home";
+import { useState } from "react";
+
+function App() {
+  const [showLodding, setshowLodding] = useState(true);
+  setTimeout(() => {
+    setshowLodding(false);
+  }, 2500);
+
+  return (
+    <div className="bg-[#0a012a] w-full h-full relative">
+      {/* {showLodding ? <Lodding /> : <Home />} */}
+      <Home />
+    </div>
+  );
+}
+
+export default App;
