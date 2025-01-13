@@ -1,12 +1,12 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
-import whatwedoImg1 from "../../Image/What_We_Do/pixelcut-export-1.jpg"
-import whatwedoImg2 from "../../Image/What_We_Do/pixelcut-export-2.jpg"
-import whatwedoImg3 from "../../Image/What_We_Do/pixelcut-export-3.jpg"
-import whatwedoImg4 from "../../Image/What_We_Do/pixelcut-export-4.jpg"
-import whatwedoImg5 from "../../Image/What_We_Do/pixelcut-export-5.jpg"
-import whatwedoImg6 from "../../Image/What_We_Do/pixelcut-export-6.jpg"
+import whatwedoImg1 from "../../Image/What_We_Do/pixelcut-export-1.png"
+import whatwedoImg2 from "../../Image/What_We_Do/pixelcut-export-2.png"
+import whatwedoImg3 from "../../Image/What_We_Do/pixelcut-export-3.png"
+import whatwedoImg4 from "../../Image/What_We_Do/pixelcut-export-4.png"
+import whatwedoImg5 from "../../Image/What_We_Do/pixelcut-export-5.png"
+import whatwedoImg6 from "../../Image/What_We_Do/pixelcut-export-6.png"
 
 const WhatWeDo = () => {
   const WhatWeDoData = [
@@ -60,7 +60,7 @@ const WhatWeDo = () => {
         <main className={`w-[100%] flex justify-center items-center`}>
           <div className="xl:w-[1230px] w-[92%] relative z-[1] flex flex-col justify-center items-center py-[2.5rem]">
             <div className="w-full text-center  relative z-10 pb-[30px]">
-              <h1 className="[@media(min-width:750px)]:text-[32px] text-[25px] font-[600] text-[#000000c4]">
+              <h1 className="[@media(min-width:750px)]:text-[32px] text-[25px] font-[600] text-[#000000eb]">
                 What We Do
               </h1>
             </div>
@@ -72,8 +72,9 @@ const WhatWeDo = () => {
                     key={key.id}
                     className={`[@media(min-width:360px)]:w-[350px] w-[98%] text-black text-center [@media(min-width:400px)]:px-[30px] px-[20px] [@media(min-width:400px)]:py-[30px] py-[20px] ${key.borderClass} border-dashed relative WhatWeDo_HoverEffectCard hover:shadow-[0px_10px_20px_0px_#c6c6c6b3] transition-[0.3s]`}
                   >
-                    <div className="w-full h-[100px] flex justify-center items-center mb-[10px]">
-                      <img src={key.img} className="[@media(min-width:500px)]:w-[150px] w-[130px] mx-auto" />
+                    <div className="[@media(min-width:500px)]:w-[150px] w-[130px] h-[100px] flex justify-center items-center mb-[10px] overflow-hidden mx-auto relative">
+                      <img src={key.img} className="w-[100%] mx-auto" />
+                      <div className="w-[60px] h-[60px] absolute left-0 top-0 rounded-[50%] bg-[#d5eff3ba] z-[-1]"></div>
                     </div>
                     <h1 className="[@media(min-width:500px)]:text-[17px] text-[16px] font-[600] tracking-[-.5px] text-[#1d1d1d] pb-[10px] ">
                       {key.tittle}
