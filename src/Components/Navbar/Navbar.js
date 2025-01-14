@@ -72,7 +72,7 @@ function Navber() {
                     <p
                       key={key.id}
                       className={
-                        "text-[#fff] hover:text-[#EA3E76] [@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer transition-[0.3s]"
+                        "text-[#fff] hover:text-[#00fff7] [@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer transition-[0.3s]"
                       }
                     >
                       {key.name}
