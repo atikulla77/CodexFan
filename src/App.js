@@ -9,7 +9,7 @@ function App() {
   }, 2500);
 
   return (
-    <div className="bg-[#0a012a] w-full h-full relative">
+    <div className="bg-[#fff] w-full h-full relative">
       {/* {showLodding ? <Lodding /> : <Home />} */}
       <Home />
     </div>

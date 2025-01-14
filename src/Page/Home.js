@@ -5,6 +5,7 @@ import Footer from "../Components/Footer/Footer";
 import WhatWeDo from "../Components/Home/WhatWeDo";
 import DataBusinessExperiment from "../Components/Home/DataBusinessExperiment";
 import TestAnything from "../Components/Home/TestAnything";
+import OurClients from "../Components/Home/OurClients";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <WhatWeDo />
       <DataBusinessExperiment />
       <TestAnything />
+      <OurClients />
       <Footer />
     </div>
   );

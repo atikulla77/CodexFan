@@ -28,9 +28,9 @@ multiple browsers and devices.`,
       tittle: "Launch, Get Results. Iterate. Repeat. 03",
       description: `Here is where it gets fun. The results! We<br/>
 watch for trends in all the data, report key<br/>
-findings to you. Then based on the results<br/>
-we declare a winner or loser and look for <br/>
-ways we can make it better.`,
+findings to you. Then based on the results we<br/>
+ declare a winner or loser and look for ways<br/>
+ we can make it better.`,
       position: "leftBottom",
     },
     {
