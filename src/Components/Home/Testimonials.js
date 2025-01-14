@@ -3,7 +3,19 @@ import personLogo from "../../Image/Testimonials.jpg";
 
 const Testimonials = () => {
   return (
-    <main className={`w-full h-full relative GeologicaFont bg-white`}>
+    <div className="w-[100%] h-full flex justify-center">
+        <main className={`[@media(min-width:1536px)]:w-[1536px] w-[100%] h-full relative GeologicaFont bg-white mx-auto`}>
+                      {/* `````````````````` */}
+          <div className="absolute left-0 top-[2rem] flex">
+              <div className="w-[50px] h-[100px] relative overflow-hidden">
+                <div className="w-[100px] h-[100px] rounded-[50%] bg-[#D4E4E7] absolute right-0 bottom-0"></div>
+              </div>
+            </div>
+            <div className="absolute right-0 bottom-[1rem] flex">
+              <div className="w-[50px] h-[100px] relative overflow-hidden">
+                <div className="w-[100px] h-[100px] rounded-[50%] bg-[#D4E4E7] absolute left-0 bottom-0"></div>
+              </div>
+            </div>
       <div className="xl:w-[1230px] w-[100%] relative z-[1] flex flex-col justify-center items-center py-[4rem] mx-auto">
         <div className="w-full text-center  relative z-10 [@media(min-width:860px)]:pb-[30px] pb-[50px]">
           <h1 className="[@media(min-width:750px)]:text-[32px] text-[25px] font-[600] text-[#000000eb]">
@@ -47,6 +59,7 @@ const Testimonials = () => {
         </div>
       </div>
     </main>
+    </div>
   );
 };
 

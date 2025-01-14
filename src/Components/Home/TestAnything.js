@@ -32,6 +32,11 @@ const DataBusinessExperiment = () => {
         />
       </div>
       <div className="[@media(min-width:1536px)]:w-[1536px] w-[100%] relative z-[1] flex flex-col justify-center items-center pt-[3.5rem] [@media(min-width:530px)]:pb-[7rem] pb-[6rem]">
+      <div className="absolute right-0 top-[-3rem] z-[-1]">
+          <div className="w-[50px] h-[100px] relative overflow-hidden">
+            <div className="w-[100px] h-[100px] rounded-[50%] bg-[#D4E4E7] absolute left-0 bottom-0"></div>
+          </div>
+        </div>
         {/* tittle */}
         <div className="w-full text-center  relative z-10 [@media(min-width:560px)]:pb-[30px]  pb-[15px]">
           <h1 className="[@media(min-width:730px)]:!text-[28px] [@media(min-width:530px)]:text-[24px] text-[19px] font-[600] [@media(min-width:730px)]:!leading-[38px] [@media(min-width:530px)]:leading-[33px] leading-[26px] text-[#000000d0]">

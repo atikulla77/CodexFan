@@ -48,7 +48,7 @@ function Navber() {
       <nav
         className={`text-[#fff] w-full relative z-10  ${
           color
-            ? "bg-[#1fb6f0f2] shadow-[0px_0px_3px_0px_#0003]"
+            ? " bg-gradient-to-r from-[#1fb6f0f2] to-[#3291eaf2] shadow-[0px_0px_3px_0px_#0003]"
             : "bg-transparent"
         }`}
         style={{ transition: ".1s ease-in" }}

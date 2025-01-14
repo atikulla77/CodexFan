@@ -46,7 +46,7 @@ your brand.`,
   ];
 
   return (
-    <main className={`w-full h-full relative GeologicaFont bg-[white]`}>
+    <main className={`w-full h-full relative GeologicaFont bg-[white] z-[1]`}>
         <div className="[@media(min-width:1536px)]:w-[1536px] w-[100%] relative z-[1] flex flex-col justify-center items-center py-[1rem]">
           <div className="absolute right-0 [@media(min-width:870px)]:!top-0 [@media(min-width:540px)]:top-[35%] top-[50%] [@media(min-width:870px)]:w-[250px] [@media(min-width:540px)]:w-[200px] w-[150px] justify-end flex items-center z-[-1]">
             <img src={partical1} className={`w-[100%] object-cover`} alt="" />
