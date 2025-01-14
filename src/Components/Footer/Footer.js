@@ -38,13 +38,13 @@ function Footer() {
           </div>
         </div>
         {/* ``````````````` */}
-        <div className="xl:w-[1230px] w-[96%] px-5 md:py-[5rem] py-[1rem] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col z-10 relative">
+        <div className="xl:w-[1230px] w-[96%] px-5 md:py-[7rem] py-[1rem] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col z-10 relative">
           <div className="flex-grow flex flex-wrap md:mt-0 mt-10 md:text-left text-center z-10 mx-auto">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="text-[14px] font-semibold text-white tracking-[1px] mb-3 GeologicaFont">
                 Agency
               </h2>
-              <nav className="list-none mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
+              <nav className="list-none lg:mb-0 mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
                 <li className=" py-[5px]">
                   <a className="cursor-pointer">What We Do</a>
                 </li>
@@ -66,7 +66,7 @@ function Footer() {
               <h2 className="text-[14px] font-semibold text-white tracking-[1px] mb-3 GeologicaFont">
                 Conversion Optimization
               </h2>
-              <nav className="list-none mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
+              <nav className="list-none lg:mb-0 mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
                 <li className=" py-[5px]">
                   <a className="cursor-pointer">About Us</a>
                 </li>
@@ -88,7 +88,7 @@ function Footer() {
               <h2 className="text-[14px] font-semibold text-white tracking-[1px] mb-3 GeologicaFont">
                 Traffic Management
               </h2>
-              <nav className="list-none mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
+              <nav className="list-none lg:mb-0 mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
                 <li className=" py-[5px]">
                   <p className="cursor-pointer">Local SEO</p>
                 </li>
@@ -110,7 +110,7 @@ function Footer() {
               <h2 className="text-[14px] font-semibold text-white tracking-[1px] mb-3 GeologicaFont">
                 Contact Us
               </h2>
-              <nav className="list-none md:mb-10 mb-[1.9rem] text-[#ffffffde] text-[13px] GeologicaFont">
+              <nav className="list-none lg:mb-0 mb-10 text-[#ffffffde] text-[13px] GeologicaFont">
                 <li className="flex py-[5px] md:justify-start justify-center ">
                   <IoLocationSharp className="text-[17px] mr-[5px] md:text-left text-center mt-[3px]" />
                   <a className="flex items-start">
