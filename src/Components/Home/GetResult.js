@@ -7,11 +7,12 @@ function GetResult() {
       className={`w-[100%] h-[100%] bg-white flex justify-center items-center pt-[1rem] pb-[3rem] mx-auto relative z-[5] GeologicaFont`}
     >
       <div className="[@media(min-width:1536px)]:w-[1536px] w-[100%] z-[1] flex flex-col justify-center items-center relative">
-        <div className="absolute right-0 bottom-[15%] [@media(min-width:980px)]:flex hidden">
+        <div className="absolute right-0 bottom-[10%] [@media(min-width:980px)]:flex hidden">
           <div className="w-[50px] h-[100px] relative overflow-hidden">
             <div className="w-[100px] h-[100px] rounded-[50%] bg-[#D4E4E7] absolute left-0 bottom-0"></div>
           </div>
         </div>
+
         <div className="w-full flex [@media(min-width:920px)]:flex-row flex-col justify-start items-center text-black z-10">
           {/* image */}
           <div className="w-[45%] justify-start [@media(min-width:920px)]:flex hidden items-center">
