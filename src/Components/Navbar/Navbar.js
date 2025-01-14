@@ -19,27 +19,26 @@ function Navber() {
   window.addEventListener("scroll", changeColor);
 
   const [nevMobileVButton, setNevMobileVButton] = useState(false);
-
   const navItems = [
     {
       id: 1,
-      name: "Home",
-      link: "Home",
+      name: "What We Do",
     },
     {
       id: 2,
-      name: "About",
-      link: "About",
+      name: "About Us",
     },
     {
       id: 3,
-      name: "Impact",
-      link: "Impact",
+      name: "Case Studies",
     },
     {
       id: 4,
-      name: "Team",
-      link: "Team",
+      name: "Resources",
+    },
+    {
+      id: 5,
+      name: "Blog",
     },
   ];
 
@@ -70,20 +69,14 @@ function Navber() {
               <div className="flex sm:space-x-4 space-x-1 items-center">
                 {navItems.map((key) => {
                   return (
-                    <Link
+                    <p
                       key={key.id}
-                      to={key.link}
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
                       className={
                         "text-[#fff] hover:text-[#EA3E76] [@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer transition-[0.3s]"
                       }
-                      aria-current="page"
                     >
-                      <p className="">{key.name}</p>
-                    </Link>
+                      {key.name}
+                    </p>
                   );
                 })}
                 <button className="text-[13.5px] font-[400] cursor-pointer text-[#fff] bg-transparent border-[2px] border-[#fff] rounded-[50px] transition-[0.3s] sm:ml-[16px] ml-[4px] px-[22px] py-[5px] h-fit">
@@ -127,10 +120,10 @@ function Navber() {
       </nav>
       {/* ---------------Mobile Nav Item--------------- */}
       <div
-        className={`absolute top-[4.5rem] right-0 w-[165px] h-[10.9rem] shadow-[0px_0px_3px_0px_#0003] rounded-b-[3px] z-0 flex md:hidden ${
+        className={`absolute top-[4.5rem] right-0 w-[165px] h-[13.1rem] shadow-[0px_0px_3px_0px_#0003] rounded-b-[3px] z-0 flex md:hidden ${
           color
-            ? "bg-[#1fb6f0f2]"
-            : "bg-[#2f94eede]"
+            ? "bg-[#3291eaf2]"
+            : "bg-[#3291eaf2]"
         } ${
           nevMobileVButton
             ? `NavberMViewAnimationLeft`
@@ -140,13 +133,8 @@ function Navber() {
         <div className="w-full h-full flex flex-col justify-start pl-[1.5rem] py-[1rem] text-white">
           {navItems.map((key) => {
             return (
-              <Link
+              <p
                 key={key.id}
-                to={key.link}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
                 className={
                   "sm:px-3 px-[5px] py-2 text-[13px] font-medium cursor-pointer block text-[#fff]"
                 }
@@ -154,7 +142,7 @@ function Navber() {
                 onClick={() => setNevMobileVButton(false)}
               >
                 {key.name}
-              </Link>
+              </p>
             );
           })}
         </div>
